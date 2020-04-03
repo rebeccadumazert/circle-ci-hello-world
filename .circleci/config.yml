@@ -7,3 +7,4 @@ jobs: # Jobs run in different containers
       - checkout # Mandatory step to get all the source code
       - run: echo "Hello Stackerine" # First command
       - run: ls -al
+      - run: docker --version
